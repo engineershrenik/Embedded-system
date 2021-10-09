@@ -1,0 +1,6 @@
+-isa=rxv2
+-fpu
+-lang=c99
+-head=runtime,stdio,stdlib,string,new
+-output="ble_demo_tbrx23w_profile_server.lib"
+-nologo

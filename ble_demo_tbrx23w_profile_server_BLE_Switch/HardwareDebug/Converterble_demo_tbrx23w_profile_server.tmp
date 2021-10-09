@@ -1,0 +1,7 @@
+-input="ble_demo_tbrx23w_profile_server.mot"
+-form=stype
+-output="ble_demo_tbrx23w_profile_server.mot"
+-byte_count=10
+-nologo
+-nomessage
+-exit

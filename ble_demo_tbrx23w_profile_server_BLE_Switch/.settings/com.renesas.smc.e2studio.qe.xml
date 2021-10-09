@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="PC4" value="RTS8#"/>
+        <Setting id="PC6" value="RXD8"/>
+        <Setting id="P15" value="IRQ5"/>
+        <Setting id="PC7" value="TXD8"/>
+        <Setting id="P31" value="IRQ1"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RX200"/>
+        <Setting id="Group" value="RX23W"/>
+        <Setting id="Board" value="TargetBoardRX23Wmodule (V1.00)"/>
+        <Setting id="PartNo" value="R5F523W8CxLN"/>
+        <Setting id="PinCount" value="83"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="UsbCLK" value="32000.0"/>
+        <Setting id="PCLKD" value="32000.0"/>
+        <Setting id="PCLKB" value="16000.0"/>
+        <Setting id="CacHocoCLK" value="32000.0"/>
+        <Setting id="VCC" value="3.3"/>
+        <Setting id="PCLKA" value="32000.0"/>
+        <Setting id="ICLK" value="32000.0"/>
+        <Setting id="FCLK" value="16000.0"/>
+        <Setting id="SysCLKSrc" value="1.0"/>
+        <Setting id="ExtCLK" value="8000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_ble_qe_utility" value="FIT"/>
+        <Setting id="r_bsp" value="FIT"/>
+        <Setting id="Config_BLE_PROFILE" value="QE"/>
+        <Setting id="r_cmt_rx" value="FIT"/>
+        <Setting id="r_irq_rx" value="FIT"/>
+        <Setting id="r_ble_rx23w" value="FIT"/>
+        <Setting id="r_lpc_rx" value="FIT"/>
+        <Setting id="r_byteq" value="FIT"/>
+        <Setting id="r_gpio_rx" value="FIT"/>
+        <Setting id="r_sci_rx" value="FIT"/>
+        <Setting id="r_flash_rx" value="FIT"/>
+    </Segment>
+</QE>
